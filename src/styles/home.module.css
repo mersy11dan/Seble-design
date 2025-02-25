@@ -1,0 +1,47 @@
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgb(237,190,196);
+background: linear-gradient(90deg, rgba(237,190,196,1) 11%, rgba(241,147,97,1) 53%, rgba(237,190,196,1) 100%);
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.latestDesign {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 10px;
+  display: inline-block;
+  animation: pulse 3s infinite;
+}
+
+.latestDesign img {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Simple pulse animation */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}

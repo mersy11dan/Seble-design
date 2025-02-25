@@ -1,0 +1,75 @@
+.container {
+  text-align: center;
+  padding: 60px 20px;
+  background: rgb(225,145,91);
+  background: linear-gradient(90deg, rgba(225,145,91,0.800718132854578) 15%, rgba(225,145,91,1) 46%, rgba(184,107,55,1) 71%);
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.filter {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.radioLabel {
+  font-size: 1.1rem;
+  color: #555;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radioLabel input {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+.cardPrice {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e67e22;
+}

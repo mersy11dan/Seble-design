@@ -1,0 +1,29 @@
+.container {
+  background: rgb(237,190,196);
+background: linear-gradient(90deg, rgba(237,190,196,1) 11%, rgba(241,147,97,1) 53%, rgba(237,190,196,1) 100%);
+  text-align: center;
+  margin-top: -40px;
+}
+
+.ourShopContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+  padding: 100px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.media {
+  width: 100%;
+  height: auto;
+  display: block;
+}
